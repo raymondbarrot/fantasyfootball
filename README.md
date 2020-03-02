@@ -1,8 +1,8 @@
 Instructions:
 1. Setup the local database using the values in .env
-	DB_DATABASE=fantasyfootball
-	DB_USERNAME=root
-	DB_PASSWORD=secret
+	- DB_DATABASE=fantasyfootball
+	- DB_USERNAME=root
+	- DB_PASSWORD=secret
 2. Run the app with 'php artisan serve'
 3. Run 'php artisan migrate'
 4. Importer command is in app/Console/Command/ImportPlayersData
